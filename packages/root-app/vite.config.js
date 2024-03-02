@@ -12,8 +12,7 @@ export default defineConfig({
       name: "root_app",
       remotes: {
         product: {
-          external: "Promise.resolve('http://localhost:4040/assets/remoteEntry.js')",
-          externalType: "promise"
+          external: "http://localhost:4040/assets/remoteEntry.js",
         }
       },
       shared: ["vue"],
