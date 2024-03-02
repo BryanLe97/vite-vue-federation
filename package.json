@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "pnpm --parallel --filter \"./**\" build ",
-    "serve": "pnpm --parallel --filter \"./**\" serve"
+    "build": "pnpm --parallel --filter \"./packages/*\" build ",
+    "serve": "pnpm --parallel --filter \"./packages/*\" serve"
   },
   "keywords": [],
   "author": "",
